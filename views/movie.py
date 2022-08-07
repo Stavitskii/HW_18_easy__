@@ -4,7 +4,7 @@ from marshmallow import ValidationError
 from sqlalchemy.exc import NoResultFound
 
 from dao.models.movie import movie_schema
-from implemented import movie_service
+from container import movie_service
 
 movie_ns = Namespace("movies")
 
