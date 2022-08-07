@@ -2,7 +2,7 @@ from flask_restx import Resource, Namespace
 from sqlalchemy.exc import NoResultFound
 
 from dao.models.director import director_schema
-from implemented import director_service
+from container import director_service
 
 director_ns = Namespace("directors")
 

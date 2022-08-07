@@ -2,7 +2,7 @@ from flask_restx import Resource, Namespace
 from sqlalchemy.exc import NoResultFound
 
 from dao.models.genre import genre_schema
-from implemented import genre_service
+from container import genre_service
 
 genre_ns = Namespace("genres")
 
